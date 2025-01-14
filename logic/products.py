@@ -3,15 +3,14 @@ from tabulate import tabulate
 import json
 from datetime import datetime
 
-
 def findAll():
-    with open ("data/products.json", "r", encoding="utf-8" ) as file:
+    with open ("delicias-caseras-proyecto/data/products.json", "r", encoding="utf-8" ) as file:
         data = file.read()
         convertListOrDict= json.loads(data)
         return convertListOrDict
     
 def saveAll(data):
-    with open ("data/products.json", "w") as file:
+    with open ("delicias-caseras-proyecto/data/products.json", "w") as file:
         convertJSON = json.dumps(data, indent=4, ensure_ascii=False)
         file.write(convertJSON)
         return "se modifico el archivo products.json"

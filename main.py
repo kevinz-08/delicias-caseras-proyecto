@@ -2,6 +2,7 @@ from design.products import *
 from logic.products import updateInventoryByCode
 from logic.newProduct import *
 from design.order import *
+from design.customeOrder import *
 import os
 
 if __name__=='__main__':
@@ -15,13 +16,13 @@ if __name__=='__main__':
                         print("Has salido del programa.")
                         isActive = False  
                     case 1:
-                        isActive = True
-                        while isActive:
+                        lobbyActive = True
+                        while lobbyActive:
                             try:
                                 match menu_cliente():
                                     case 0:
                                         print("Has salido del programa.")
-                                        isActive = False 
+                                        lobbyActive = False 
                                     case 1:
                                         tableProducts()
                                         input("Presiona enter para continuar...")
@@ -54,6 +55,8 @@ if __name__=='__main__':
                                     case 3:
                                         updateInventoryByCode(input("Ingrese el código de producto ejemplo (PNN_001): "))
                                         input("Presiona Enter para regresar al menú principal...")
+                                    case 5:
+                                        administrar_pedidos()   
                                     case 4:
                                         createProduct()
                                         input("Presiona Enter para continuar...")

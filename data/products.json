@@ -48,5 +48,15 @@
         "cantidad_en_stock": 80,
         "precio_venta": 5000,
         "precio_proveedor": 3000
+    },
+    {
+        "codigo_producto": "PL-09",
+        "nombre": "pan escoces",
+        "categoria": "panes",
+        "descripcion": "pan de escocia",
+        "proveedor": "escopan",
+        "cantidad_en_stock": 50,
+        "precio_venta": 6000,
+        "precio_proveedor": 5000
     }
 ]

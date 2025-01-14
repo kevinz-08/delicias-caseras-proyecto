@@ -1,5 +1,6 @@
 from logic.products import *
 def createProduct():
+    data = findAll()
     codigoProducto = input('Escribe el codigo del producto: ')
     name = input('Escribe el nombre del producto : ')
     catergoria = input('Escribe la categoria del producto: ')
@@ -8,7 +9,7 @@ def createProduct():
     cantidadEnStock = int(input('Escribe la cantidad de tu stock: '))
     precioDeVenta = int(input('Escribe el precio de tu producto: '))
     precioDeProveedor = int(input('Escribe el precio que te da tu proveedor: '))
-    data = findAll()
+    
     gh = {
         "codigo_producto": codigoProducto,
         "nombre": name,
