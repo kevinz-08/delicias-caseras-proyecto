@@ -1,0 +1,52 @@
+[
+    {
+        "codigo_producto": "PN--67",
+        "nombre": "pastel chocolate",
+        "categoria": "pastel",
+        "descripcion": "pastel bañado en chocolate",
+        "proveedor": "tortas",
+        "cantidad_en_stock": 18,
+        "precio_venta": 8900,
+        "precio_proveedor": 8000
+    },
+    {
+        "codigo_producto": "PN-09",
+        "nombre": "pan italiano",
+        "categoria": "panes",
+        "descripcion": "pan exquisito",
+        "proveedor": "bimbo",
+        "cantidad_en_stock": 90,
+        "precio_venta": 1500,
+        "precio_proveedor": 1000
+    },
+    {
+        "codigo_producto": "PS--88",
+        "nombre": "pan frances",
+        "categoria": "panes",
+        "descripcion": "pan",
+        "proveedor": "GHJKL",
+        "cantidad_en_stock": 5,
+        "precio_venta": 9000,
+        "precio_proveedor": 4000
+    },
+    {
+        "codigo_producto": "TT-98",
+        "nombre": "postre de tres leches",
+        "categoria": "postres",
+        "descripcion": "torta de tres leches",
+        "proveedor": "frescaleche",
+        "cantidad_en_stock": 90,
+        "precio_venta": 7000,
+        "precio_proveedor": 5000
+    },
+    {
+        "codigo_producto": "PG--06",
+        "nombre": "pan griego",
+        "categoria": "panes",
+        "descripcion": "pan de grecia",
+        "proveedor": "grepanes",
+        "cantidad_en_stock": 80,
+        "precio_venta": 5000,
+        "precio_proveedor": 3000
+    }
+]
