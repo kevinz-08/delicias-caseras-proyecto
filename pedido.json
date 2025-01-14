@@ -53,5 +53,16 @@
             "precio_unitario": 1000.0,
             "numero_linea": 5
         }
+    },
+    {
+        "codigo_pedido": "6",
+        "codigo_cliente": "Cl-006",
+        "fecha_pedido": "2025-01-14 07:17:02",
+        "detalles_pedido": {
+            "codigo_producto": "TT-98",
+            "cantidad": 80,
+            "precio_unitario": 7000.0,
+            "numero_linea": 6
+        }
     }
 ]

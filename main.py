@@ -1,6 +1,7 @@
 from design.products import *
 from logic.products import updateInventoryByCode
 from logic.newProduct import *
+from design.order import *
 import os
 
 if __name__=='__main__':
